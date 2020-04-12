@@ -1,0 +1,39 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+background-image:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(h2.jpg);
+background-position:center;
+background-size:cover;
+height: 100vh;
+font-family:sans-serif;
+margin-top:20px;
+margin-bottom:20px;
+margin-left:530px;
+}
+.wrap{ 
+	width:500px;
+border-radius:20px;
+background:rgba(0,0,0,0.8);
+box-sizing:border-box;
+padding-right:100px;
+padding-left:100px;
+padding-top:40px;
+padding-bottom:40px;
+color:orange;
+margin
+}
+input[type=text], input[type=password]{
+width:100%
+box-sizing:border-box;
+padding:12px 5px;
+background:rgba(0,0,0,0.10);
+outline:none;
+border:none;
+border-bottom:1px dotted orange;
+color:white;
+border-radius:5px;
+margin:5px;
+font-weight:bold;
+}

@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: sans-serif;
+}
+.app-container
+{
+	height: 600px;
+	width: 350px;
+	background-image: linear-gradient(orange,#9200ff);
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	position: absolute; 
+}
+.top
+{
+	height: 150px;
+	background-color: #9100fb;
+	border-bottom-left-radius: 80px;
+	border-bottom-right-radius: 80px;
+}
+.top
+{
+	text-align: center;
+	padding-top: 20px;
+	color: #fff;
+}
+.left-icon
+{
+	float: left;
+	margin-left: 30px;
+}
+.right-icon
+{
+	float: right;
+	margin-right: 30px;
+}
+.middle
+{
+	height: 150px;
+	background-image: linear-gradient(green,orange);
+	margin: -70px 30px 20px;
+	color: #fff;
+	text-align: center;
+	font-size: 12px;
+	border-radius: 10px;
+}
+.middle h1
+{
+	padding-top: 30px;
+	padding-bottom: 30px;
+	font-size: 50px;
+	font-weight: normal;
+}
+.middle h1 span
+{
+	font-size: 20px;
+	margin-left: 5px;
+	bottom: 18px;
+	position: relative;
+}
+.payment
+{
+	color: #fff;
+	margin: 5px 30px;
+	height: 30px;
+	width: 290px;
+	background-color: #9100fb;
+	border: none;
+	cursor: pointer;
+}
+.card
+{
+	background: #fff;
+	color: #555;
+	margin: 10px 30px;
+	padding: 5px;
+}
+.card p
+{
+	font-size: 14px;
+	text-align: center;
+	text-decoration-color: black;
+}
+.card label
+{
+	font-size: 10px;
+	line-height: 20px;
+}
+.card-details
+{
+	margin-top: 10px;
+}
+.date
+{
+	margin-top: 10px;
+	display: inline-block;
+}
+.cvv
+{
+	margin-top: 10px;
+	display: inline-block;
+	float: right;	
+}
+.card-name
+{
+	margin-top: 10px;
+}
+.card-num, .card-name1
+{
+	width: 270px;
+}
+.expdate, .cvv1
+{
+	width: 80px;
+}
+.card input
+{
+	border: 1px solid #ccc;
+	height: 14px;
+	padding: 2px;
+	font-size: 11px;
+}
+.card input::placeholder
+{
+	color: grey;
+}
+.pay
+{
+	width: 270px;
+	color: #fff;
+	margin-top: 20px;
+	height: 30px;
+	background-color: green;
+	border: none;
+	cursor: pointer;
+	text-decoration: none;
+            padding-left: 50px;
+            padding-right: 50px;
+            text-align: center;
+}
+.pay:hover
+{
+	background-color: green;
+}
